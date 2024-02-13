@@ -1,4 +1,1 @@
-      # if Ypoint.num % 2 !=0:
-        #     compressedKey = b'\x02'+Xpoint.to_bytes(32,'big')
-        # else:
-        #     compressedKey = b'\x03'+Xpoint.to_bytes(32,'big')
+0x483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8

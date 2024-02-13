@@ -33,6 +33,10 @@ class BlockChainDb(BaseDb):
     
     def lastBlock(self):
         data = self.read()
-        print(data[-1])
         if data:
             return data[-1]
+        
+class AccountDb(BaseDb):
+    def __init__(self):
+        self.filename = "account"
+        super().__init__()
